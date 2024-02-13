@@ -1,4 +1,18 @@
-#root {
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +53,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

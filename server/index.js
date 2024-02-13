@@ -15,7 +15,7 @@ app.use(express.json());
 //====================ROUTES=================//
 
 // greate a todo
-app.post("/todo", async (req, res) => {
+app.post("/todos", async (req, res) => {
   try {
     //create an instance of pool and make query on it
     const { description } = req.body;
